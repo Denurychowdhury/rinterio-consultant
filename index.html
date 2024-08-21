@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rinterio consaltant</title>
+        <!--font familly -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+        <!-- Tailwind and daisiui cdn link -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- fontawesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- tailwind configuration -->
+        <script>
+            tailwind.config = {
+                content: ["./src/**/*.{html,js}"],
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                            'btn-bg': '#ABEF5F',
+                            fontColor: '#212121',
+                            iconBg: '#1C1C1C',
+                            paraColor: '#737373',
+                            titleBg: '#ABEF5F',
+                            iconColor:'#737373',
+                        },
+                        backgroundImage: {
+                            mailBg: "URL('./assets/bg.jpg')",
+                        },
+                    },
+                },
+            }
+        </script>
+    </head>
+
+    <body class="bg-gray-100">
+        <!-- header section -->
+        <header>
+            <!-- navbar section -->
+            <nav class="w-11/12 mx-auto ">
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <a href="#" class=" ">
+                            <div class="flex items-center gap-1">
+                                <div class="bg-btn-bg  rounded-full   ">
+                                    <i class="fa-solid fa-arrow-right text-1xl p-2.5 -rotate-45 ">
+                                    </i>
+                                </div>
+                                <h1 class="text-4xl font-extrabold">Rinterio</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-base font-extrabold">
+                            <li class="hover:text-paraColor"><a href="">Home</a></li>
+                            <li class="hover:text-paraColor"><a href="">Services</a></li>
+                            <li class="hover:text-paraColor"><a href="">Portfolio</a></li>
+                            <li class="hover:text-paraColor"><a href="">Blogs</a></li>
+                            <li class="hover:text-paraColor"><a href="">Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="md:block hidden mr-2">
+                            <div class="flex gap-3">
+                            <div class="flex items-center gap-4 text-lg md:h ">
+                            <button class="bg-white  rounded-full">
+                                <i class="fa-solid fa-magnifying-glass text-iconColor p-2"></i>
+                            </button>
+                            <button class="bg-white  rounded-full">
+                                <i class="fa-solid fa-cart-shopping text-iconColor p-2"></i>
+                            </button>
+                        </div>
+                        <a class="btn  bg-btn-bg" >
+                            <span>Book Consult</span>
+                             <button class="bg-fontColor  rounded-full   ">
+                                    <i class="fa-solid fa-arrow-right text-white text-1xl p-2.5 -rotate-45 ">
+                                    </i>
+                             </button>
+                        </a>
+                        </div>
+                        </div>
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn bg-white  rounded-full lg:hidden">
+                                <i class="fa-solid fa-bars text-xl font-bold text-IconColor"></i>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-2">
+                            <li class="hover:text-paraColor"><a href="">Home</a></li>
+                            <li class="hover:text-paraColor"><a href="">Services</a></li>
+                            <li class="hover:text-paraColor"><a href="">Portfolio</a></li>
+                            <li class="hover:text-paraColor"><a href="">Blogs</a></li>
+                            <li class="hover:text-paraColor"><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Banner section -->
+            <section></section>
+        </header>
+        <!-- main section -->
+        <main></main>
+        <!-- footer section -->
+        <footer></footer>
+    </body>
+
+</html>
