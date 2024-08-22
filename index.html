@@ -42,10 +42,12 @@
 
     <body class="bg-gray-100">
         <!-- header section -->
-        <header>
+        <header class="bg-[#f9f9f9]">
             <!-- navbar section -->
-            <nav class="w-11/12 mx-auto ">
+            <nav class="container mx-auto ">
+                <!-- navbar -->
                 <div class="navbar">
+                    <!-- nav-start -->
                     <div class="navbar-start">
                         <a href="#" class=" ">
                             <div class="flex items-center gap-1">
@@ -57,6 +59,7 @@
                             </div>
                         </a>
                     </div>
+                    <!-- nav-center -->
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1 text-base font-extrabold">
                             <li class="hover:text-paraColor"><a href="">Home</a></li>
@@ -67,6 +70,7 @@
 
                         </ul>
                     </div>
+                    <!-- nav-end -->
                     <div class="navbar-end">
                         <div class="md:block hidden mr-2">
                             <div class="flex gap-3">
@@ -104,13 +108,17 @@
                 </div>
             </nav>
             <!-- Banner section -->
-            <section class="bg-white">
-                <div class=" w-11/12 mx-auto flex items-center justify-center md:py-20 py-10 ">
+            <section class="">
+                <!-- banner-container -->
+                <div class=" container mx-auto flex items-center justify-center md:py-20 py-10 ">
+                    <!-- banner  -->
                     <div class="lg:w-3/4 mx-auto flex flex-col items-center space-y-4">
                         <img src="./assets/banner.png" alt="">
                         <div class="text-center space-y-4 ">
-                            <h1 class="font-extrabold md:text-6xl text-2xl ">A barn house of this design has a striking appearance</h1>
-                            <p class="text-[#494949] font-medium md:text-base text-sm">"Transform your space into a sanctuary of style, where every detail whispers elegance.
+                            <h1 class="font-extrabold md:text-6xl text-2xl ">A barn house of this design has a striking
+                                appearance</h1>
+                            <p class="text-[#494949] font-medium md:text-base text-sm">"Transform your space into a
+                                sanctuary of style, where every detail whispers elegance.
                                 Embrace the harmony of colors and textures that reflect your unique essence."</p>
                         </div>
                         <a class="btn rounded-full bg-titleBg md:w-56 w-full">
@@ -125,7 +133,113 @@
             </section>
         </header>
         <!-- main section -->
-        <main></main>
+        <main>
+            <!-- about us section -->
+            <section class="">
+                <!-- hero container -->
+                <div class="hero container mx-auto lg:py-20 py-10">
+                    <!-- hero content -->
+                    <div class="hero-content lg:flex-row flex-col md:gap-10 relative ">
+                        <!-- positon imagge -->
+                        <div class="absolute top-0 lg:block hidden -left-4">
+                            <img src="./assets/Vector.png" alt="">
+                        </div>
+                        <!-- about content -->
+                        <div class="lg:w-2/4" w-full>
+                            <div class="md:space-y-4 space-y-2 text-center lg:text-left">
+
+                                <a class="btn rounded-full bg-white px-5 py-2">
+                                    <button class="rounded-full ">
+                                        <i class="fa-solid fa-arrow-right  text-1xl p-2  ">
+                                        </i>
+                                    </button>
+                                    <span class="text-base font-bold">About Us</span>
+                                </a>
+                                <h1 class="lg:text-[40px] text[36px] font-bold">We design thoughtful, liveable spaces
+                                </h1>
+                                <p class="py-2  text-paraColor">
+                                    "Elevating your space with thoughtful design that harmonizes beauty and
+                                    functionality."
+                                </p>
+                            </div>
+                            <div class="flex flex-col md:flex-row lg:flex-col gap-4">
+                                <div class="flex items-center gap-9 bg-white px-5 py-2 rounded-xl">
+                                    <div class=""><img src="./assets/commercial.png " alt=""></div>
+                                    <div>
+                                        <h1 class="text-xl font-bold">Commercial</h1>
+                                        <p class="text-paraColor text-base">
+                                            A commercial building is a structure designed for conducting business
+                                            activities, providing space for offices, retail, or services.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-9 bg-white px-4 py-2 rounded-xl">
+                                    <div class="">
+                                        <img src="./assets/residential.png " alt="">
+                                    </div>
+                                    <div>
+                                        <h1 class="text-xl font-bold">Residential</h1>
+                                        <p class="text-paraColor text-base">TResidential buildings are structures
+                                            designed to provide living
+                                            spaces for individuals and families, blending functionality with
+                                            comfort and style
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- about image -->
+                        <div class="lg:w-2/4 w-full">
+                            <img src="./assets/Rectangle.png" class="rounded-lg shadow-2xl  w-full " />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--clients-details-part -->
+            <section class="container mx-auto">
+                <div class=" shadow-lg grid lg:grid-cols-4 md:grid-cols-2 lg:py-14 py-7">
+                    <div class="stat place-items-center space-y-2">
+                        <div class="stat-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                            </svg>
+
+                        </div>
+                        <div class="stat-value">235+</div>
+                        <div class="stat-desc">Happy Client Review</div>
+                    </div>
+                    <div class="stat place-items-center space-y-2">
+                        <div class="stat-title">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="stat-value ">50+</div>
+                        <div class="stat-desc">↗︎ Work Departments</div>
+                    </div>
+                    <div class="stat place-items-center space-y-2">
+                        <div class="stat-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                            </svg>
+
+                        </div>
+                        <div class="stat-value">30k+</div>
+                        <div class="stat-desc">↘︎ Our Happy Client</div>
+                    </div>
+                    <div class="stat place-items-center space-y-2">
+                        <div class="stat-title">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div class="stat-value">307+</div>
+                        <div class="stat-desc">↘︎ Staff Members</div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <!-- footer section -->
         <footer></footer>
     </body>
