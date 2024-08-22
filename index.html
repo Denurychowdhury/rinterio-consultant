@@ -82,7 +82,7 @@
                                         <i class="fa-solid fa-cart-shopping text-iconColor p-2"></i>
                                     </button>
                                 </div>
-                                <a class="btn rounded-full bg-btn-bg">
+                                <a class="btn rounded-full bg-btn-bg hover:bg-btn-bg">
                                     <span class="text-xl font-extrabold md:hidden lg:block">Book Consult</span>
                                     <button class="bg-fontColor  rounded-full ">
                                         <i class="fa-solid fa-arrow-right text-white text-1xl p-2.5 -rotate-45 ">
@@ -121,7 +121,7 @@
                                 sanctuary of style, where every detail whispers elegance.
                                 Embrace the harmony of colors and textures that reflect your unique essence."</p>
                         </div>
-                        <a class="btn rounded-full bg-titleBg md:w-56 w-full">
+                        <a class="btn rounded-full bg-titleBg hover:bg-titleBg md:w-56 w-full">
                             <span class="text-xl font-bold">View Details</span>
                             <button class="bg-btn-bg  rounded-full ">
                                 <i class="fa-solid fa-arrow-right  text-1xl p-2.5 -rotate-45 ">
@@ -198,7 +198,8 @@
             </section>
             <!--clients-details-part -->
             <section class="container mx-auto ">
-                <div class="bg-white hover:bg-white rounded-xl shadow-lg grid lg:grid-cols-4 md:grid-cols-2 lg:py-14 py-7">
+                <div
+                    class="bg-white hover:bg-white rounded-xl shadow-lg grid lg:grid-cols-4 md:grid-cols-2 lg:py-14 py-7">
                     <div class="stat place-items-center space-y-2">
                         <div class="stat-title">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -526,47 +527,90 @@
                 </div>
             </section>
             <!--lets connect section -->
-            <section class="bg-mailBg bg-cover md:py-20">
+            <section class="bg-mailBg bg-cover md:py-20 py-10">
                 <div class="w-3/4 mx-auto">
-                <div class="md:space-y-4 space-y-2 text-center md:w-3/5 mx-auto">
-                    <a class="btn rounded-full hover:bg-[#eefcdf] bg-[#eefcdf] px-5 py-2">
-                        <button class="rounded-full ">
-                            <i class="fa-solid fa-arrow-right  text-1xl p-2  ">
-                            </i>
-                        </button>
-                        <span class="text-base font-bold">Let’s Connect</span>
-                    </a>
-                    <h1 class="lg:text-[40px] text[36px] font-bold">Let’s Discuss Next Project
-                    </h1>
-                    <p class="py-2  text-paraColor">
-                        "Excited to discuss our upcoming project—let's explore design concepts and
-                        materials that will elevate our vision. Your input will be invaluable as we
-                        shape our ideas!"
-                    </p>
-                </div>
-                <div class="grid grid-cols-2 gap-5">
-                    <!-- xs -->
-                    <input type="text" placeholder="First Name*" class="input input-bordered rounded-full  input-md w-full " />
-                    <!-- sm -->
-                    <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full  input-md w-full " />
-                    <!-- md -->
-                    <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-full  input-md w-full " />
-                    <!-- lg -->
-                    <input type="text" placeholder="Email Number*" class="input input-bordered rounded-full  input-md w-full " />
-                    <textarea class="textarea textarea-bordered col-span-2 rounded-xl h-52" placeholder="Write your message here"></textarea>
-                    <a class="btn hover:bg-titleBg rounded-full bg-btn-bg col-span-2  w-full">
+                    <div class="md:space-y-4 space-y-2 text-center lg:w-3/5 md:3/5 w-full md:mx-auto">
+                        <a class="btn rounded-full hover:bg-[#eefcdf] bg-[#eefcdf] px-5 py-2">
+                            <button class="rounded-full ">
+                                <i class="fa-solid fa-arrow-right  text-1xl p-2  ">
+                                </i>
+                            </button>
+                            <span class="text-base font-bold">Let’s Connect</span>
+                        </a>
+                        <h1 class="lg:text-[40px] text[36px] font-bold">Let’s Discuss Next Project
+                        </h1>
+                        <p class="py-2  text-paraColor">
+                            "Excited to discuss our upcoming project—let's explore design concepts and
+                            materials that will elevate our vision. Your input will be invaluable as we
+                            shape our ideas!"
+                        </p>
+                    </div>
+                    <div class="grid md:grid-cols-2 grid-cols-1 gap-5">
+                        <!-- xs -->
+                        <input type="text" placeholder="First Name*"
+                            class="input input-bordered rounded-full  input-md w-full " />
+                        <!-- sm -->
+                        <input type="text" placeholder="Last Name*"
+                            class="input input-bordered rounded-full  input-md w-full " />
+                        <!-- md -->
+                        <input type="text" placeholder="Phone Number*"
+                            class="input input-bordered rounded-full  input-md w-full " />
+                        <!-- lg -->
+                        <input type="text" placeholder="Email Number*"
+                            class="input input-bordered rounded-full  input-md w-full " />
+                        <textarea class="textarea textarea-bordered md:col-span-2 rounded-xl h-52"
+                            placeholder="Write your message here"></textarea>
+                        <a class="btn hover:bg-btn-bg rounded-full bg-btn-bg md:col-span-2  w-full">
                             <span class="text-xl font-bold">Send Mail</span>
                             <button class="rounded-full ">
-                                <i class="bg-iconBg fa-solid fa-arrow-right rounded-full text-white text-1xl p-2.5 -rotate-45 ">
+                                <i
+                                    class="bg-iconBg fa-solid fa-arrow-right rounded-full text-white text-1xl p-2.5 -rotate-45 ">
                                 </i>
                             </button>
                         </a>
-                </div>
+                    </div>
                 </div>
             </section>
         </main>
         <!-- footer section -->
-        <footer></footer>
+        <footer class="footer footer-center py-16 rounded p-10 bg-iconBg text-white space-y-5">
+            <!-- title logo -->
+            <div class="md:w-3/5 w-full">
+                <a href="#" class=" ">
+                    <div class="flex  items-center gap-1">
+                        <div class="bg-btn-bg  rounded-full   ">
+                            <i class="fa-solid fa-arrow-right text-1xl p-2.5 -rotate-45 ">
+                            </i>
+                        </div>
+                        <h1 class="text-4xl font-extrabold lg:block md:hidden">Rinterio</h1>
+                    </div>
+                </a>
+                <p class="py-2  text-paraColor">
+                    "Excited to discuss our upcoming project—let's explore design concepts and
+                    materials that will elevate our vision. Your input will be invaluable as we
+                    shape our ideas!"
+                </p>
+            </div>
+            <!-- navigation bar  -->
+            <div class="">
+                <ul class="flex md:flex-row justify-between flex-col md:gap-15 gap-10  px-1 text-base font-bold">
+                    <li class="hover:text-paraColor"><a href="">Home</a></li>
+                    <li class="hover:text-paraColor"><a href="">Services</a></li>
+                    <li class="hover:text-paraColor"><a href="">Portfolio</a></li>
+                    <li class="hover:text-paraColor"><a href="">Blogs</a></li>
+                    <li class="hover:text-paraColor"><a href="">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <!-- button -->
+            <a class="btn flex rounded-full bg-btn-bg hover:bg-btn-bg">
+                <span class="text-xl font-extrabold">Book Consult</span>
+                <button class="bg-fontColor  rounded-full ">
+                    <i class="fa-solid fa-arrow-right text-white text-1xl p-2.5 -rotate-45 ">
+                    </i>
+                </button>
+            </a>
+        </footer>
     </body>
 
 </html>
